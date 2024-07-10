@@ -579,3 +579,40 @@ header{
     letter-spacing: 0%;
     text-align: center;
 }
+/* Footer Style Starts Hear */
+footer{
+    width: 1440px;
+    height: 100px;
+    margin: 80px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+}
+.footer-container{
+    width: 1140px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+.footer-icon{
+    width: 36px;
+    height: 36px;
+}
+.contact-link{
+    display: flex;
+    gap: 24px;
+    width: 157.01px;
+height: 36px;
+}
