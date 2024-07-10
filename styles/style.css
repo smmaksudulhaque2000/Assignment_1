@@ -13,7 +13,7 @@
 }
 .name{
     color: rgb(13, 19, 33);
-        font-family: Azeret Mono;
+    font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
     line-height: 33px;
@@ -27,19 +27,17 @@
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
     opacity: 0.8;
-   
-
 }
 .nav-download-btn{
     width: 100%;
     height: 100%;
     color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 /* front Panel Style Starts Hear */
 header{
@@ -503,6 +501,101 @@ header{
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
 }
+/* Next Target Section Style Starts Hear */
+.next-target-container{
+    width: 1140px;
+    height: 871px;
+    margin: 111px auto 0px;
+}
+.next-target-upper{
+    width: 946px;
+    height: 115px;
+    margin: 0px auto;
+    text-align: center;
+}
+.next-target-upper-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.next-target-upper-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.next-target-lower{
+    width: 1140px;
+    height: 708px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    margin-top: 24px;
+
+
+background: rgb(255, 255, 255);
+}
+.next-target-lower-item{
+    width: 1140px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+}
+.next-target-lower-image{
+    width: 94.78px;
+    height: 108px;
+    margin-left: 40px;
+}
+.next-target-content{
+    width: 941.22px;
+    height: 96p;
+    display: flex;
+    flex-direction: column;
+    
+}
+.next-target-content-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.next-target-content-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+.next-target-larn-more{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
 /* Support Section Style Starts Hear */
 
 .support-container{
@@ -614,5 +707,5 @@ background: rgba(13, 19, 33, 0.03);
     display: flex;
     gap: 24px;
     width: 157.01px;
-height: 36px;
+    height: 36px;
 }
